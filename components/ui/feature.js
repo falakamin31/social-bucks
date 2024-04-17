@@ -1,8 +1,7 @@
 import Image from "next/image";
 
 const Feature = ({feature}) => {
-    const {title , description } = feature;
-    console.log(title, description)
+    const {title , description } = feature
     return (
         <div className="flex mb-7 lg:mb-0 gap-3 lg:gap-4">
             <Image src='/images/features-pattern.svg' alt={feature.title} width={30} height={30} className='w-6 h-6 lg:w-8 lg:h-8 object-contain' priority/>

@@ -1,6 +1,5 @@
 import { features } from "@/constants";
-import Feature from "../ui/feature";
-
+import {Feature} from "@/components";
 const MakesUsSpecial = props => {
     return (
     <div className="px-9 pt-[5.625rem] pb-[6.125rem] lg:pt-[12.435rem] lg:pb-[14.5rem]">    

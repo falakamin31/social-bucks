@@ -1,8 +1,5 @@
 import { Head } from "next/document";
-import NavBar from "@/components/layouts/nav-bar";
-import Hero from "@/components/home/hero";
-import MakesUsSpecial from "@/components/home/makes-us-special";
-
+import { NavBar,Hero,MakesUsSpecial, WhySocialBucks} from "@/components";
 const Home = props => {
     return (
         <>
@@ -15,6 +12,7 @@ const Home = props => {
             <NavBar/>
             <Hero/>
             <MakesUsSpecial/>
+            <WhySocialBucks/>
         </>
     );
 };
