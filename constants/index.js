@@ -53,4 +53,36 @@ const features = [
         description : 'You get paid instantly to your bank account.'
     }
 ]
-export  {cardsList,features};
+const carouselCards = [
+    {
+        id: 1,
+        image: './images/calender.svg',
+        title : 'Not just a membership',
+        description : 'Creators who previously only used Patreon noticed a massive increase in earnings after accepting one-off payments.',
+    },
+    {
+        id: 2,
+        title : '6 new languages',
+        image: './images/earth.svg',
+        description : 'We now support Spanish, French, Italian, German and Ukrainian - making it easier for your global audience to support you..',
+    },
+    {
+        id: 3,
+        title : 'Email marketing',
+        image: './images/email.svg',
+        description : 'Instead of paying separately for email marketing tools like Mailchimp, send unlimited emails to your fans for free.',
+    },
+    {
+        id: 4,
+        title : 'Being friendly converts',
+        image: './images/heart.svg',
+        description : 'ICYMI, we make it simple fun for your supporters. While you cannot put a number on feelings, it tends to show on the results.',
+    },
+    {
+        id: 5,
+        title : 'Your privacy comes first',
+        image: './images/lock.svg',
+        description : 'Receive dan support safely without disclosing your identity or address. We’ll do the heavy-lifting.',
+    },
+]
+export  {cardsList,features, carouselCards};

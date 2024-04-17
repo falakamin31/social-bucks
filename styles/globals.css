@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding: 2.25rem !important;
+}
+
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+    height: 2px !important;
+    background: #90F208 !important;
+    margin-top: 20px;
+}
+
+.swiper-slide {
+    text-align: center;
+    /* background: #830f0f; */
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 13.6875rem;
+}
+.swiper {
+    width: 100%;
+    margin: 20px auto;
+}
