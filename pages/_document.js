@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body className={eina.variable}>
+      <body className={`${eina.variable} bg-dark-black`}>
         <Main />
         <NextScript />
       </body>
