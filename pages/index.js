@@ -13,6 +13,7 @@ const Home = props => {
             <Hero/>
             <MakesUsSpecial/>
             <WhySocialBucks/>
+            <div className="h-screen"></div>
         </>
     );
 };
