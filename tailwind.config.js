@@ -20,9 +20,13 @@ module.exports = {
                 'gray' : '#7F7F7F',
                 'dark-gray' : '#1A1A1A',
                 'dark-black' : '#030303'
-                
-
             }
+            ,rotate: {
+                '5' : '5deg',
+                '6' : '6deg',
+                '11': '11deg',
+                
+        }
         },
     },
     plugins: [],
