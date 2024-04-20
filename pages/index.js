@@ -14,9 +14,7 @@ const Home = props => {
             <Support/>
             <MakesUsSpecial/>
             <WhySocialBucks/>
-            <Footer/>
-            <div className="h-screen"></div>
-            
+            <Footer/>            
         </>
     );
 };
