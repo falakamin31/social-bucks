@@ -1,35 +1,35 @@
-const cardsList = [
-    {
-        id : 1,
-        image : 'https://via.placeholder.com/150',
-        desc : 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.',
-        supporters : 100,
-    },
-    {
-        id : 2,
-        image : 'https://via.placeholder.com/151',
-        desc : 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.',
-        supporters : 250,
-    },
-    {
-        id : 3,
-        image : 'https://via.placeholder.com/152',
-        desc : 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.',
-        supporters : 400,
-    },
-    {
-        id : 4,
-        image : 'https://via.placeholder.com/153',
-        desc : 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.',
-        supporters : 1023,
-    },
-    {
-        id : 5,
-        image : 'https://via.placeholder.com/154',
-        desc : 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.',
-        supporters : 120,
-    }
-]
+// const cardsList = [
+//     {
+//         id : 1,
+//         image : 'https://via.placeholder.com/150',
+//         desc : 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.',
+//         supporters : 100,
+//     },
+//     {
+//         id : 2,
+//         image : 'https://via.placeholder.com/151',
+//         desc : 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.',
+//         supporters : 250,
+//     },
+//     {
+//         id : 3,
+//         image : 'https://via.placeholder.com/152',
+//         desc : 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.',
+//         supporters : 400,
+//     },
+//     {
+//         id : 4,
+//         image : 'https://via.placeholder.com/153',
+//         desc : 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.',
+//         supporters : 1023,
+//     },
+//     {
+//         id : 5,
+//         image : 'https://via.placeholder.com/154',
+//         desc : 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.',
+//         supporters : 120,
+//     }
+// ]
 
 const features = [
     {
@@ -56,33 +56,51 @@ const features = [
 const carouselCards = [
     {
         id: 1,
-        image: './images/calender.svg',
+        image: './images/icons/calender.svg',
         title : 'Not just a membership',
         description : 'Creators who previously only used Patreon noticed a massive increase in earnings after accepting one-off payments.',
     },
     {
         id: 2,
         title : '6 new languages',
-        image: './images/earth.svg',
+        image: './images/icons/earth.svg',
         description : 'We now support Spanish, French, Italian, German and Ukrainian - making it easier for your global audience to support you..',
     },
     {
         id: 3,
         title : 'Email marketing',
-        image: './images/email.svg',
+        image: './images/icons/email.svg',
         description : 'Instead of paying separately for email marketing tools like Mailchimp, send unlimited emails to your fans for free.',
     },
     {
         id: 4,
         title : 'Being friendly converts',
-        image: './images/heart.svg',
+        image: './images/icons/heart.svg',
         description : 'ICYMI, we make it simple fun for your supporters. While you cannot put a number on feelings, it tends to show on the results.',
     },
     {
         id: 5,
         title : 'Your privacy comes first',
-        image: './images/lock.svg',
+        image: './images/icons/lock.svg',
         description : 'Receive dan support safely without disclosing your identity or address. We’ll do the heavy-lifting.',
     },
 ]
-export  {cardsList,features, carouselCards};
+
+const socialHandles = [
+    {
+        id: 1,
+        icon: '/images/icons/twitter.svg',
+        link: 'https://twitter.com'
+    },
+    {
+        id: 2,
+        icon: '/images/icons/instagram.svg',
+        link: 'https://instagram.com'
+    },
+    {
+        id: 3,
+        icon: '/images/icons/linkedin.svg',
+        link: 'https://linkedin.com'
+    },
+];
+export  {features, carouselCards, socialHandles};

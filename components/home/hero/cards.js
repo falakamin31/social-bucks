@@ -12,7 +12,7 @@ const Cards = props => {
                         </div>
                         <p className="font-bold lg:font-medium text-[8px] lg:text-[15px] text-center px-[1.3125rem] lg:px-[2.125rem]">Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor</p>
                         <div className="flex justify-center items-center gap-1">
-                        <Image src='/images/heart-icon.svg' alt="heart icon" width={20} height={20} className="w-[15px] h-[15px] lg:w-6 lg:h-6"/>
+                        <Image src='/images/icons/heart-icon.svg' alt="heart icon" width={20} height={20} className="w-[15px] h-[15px] lg:w-6 lg:h-6"/>
                         <p className="text-[8px] lg:text-sm font-medium">321 supporters</p>
                     </div>
                         </div>
@@ -28,7 +28,7 @@ const Cards = props => {
                             </div>
                             <p className="font-bold lg:font-medium text-[8px] lg:text-[15px] text-center px-[1.3125rem] lg:px-[2.125rem]">Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor</p>
                             <div className="flex justify-center items-center gap-1">
-                                <Image src='/images/heart-icon.svg' alt="heart icon" width={20} height={20} className="w-[15px] h-[15px] lg:w-6 lg:h-6" />
+                                <Image src='/images/icons/heart-icon.svg' alt="heart icon" width={20} height={20} className="w-[15px] h-[15px] lg:w-6 lg:h-6" />
                                 <p className="text-[8px] lg:text-sm font-medium">321 supporters</p>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const Cards = props => {
                             </div>
                             <p className="font-bold lg:font-medium text-[8px] lg:text-[15px] text-center px-[1.3125rem] lg:px-[2.125rem]">Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor</p>
                             <div className="flex justify-center items-center gap-1">
-                                <Image src='/images/heart-icon.svg' alt="heart icon" width={20} height={20} className="w-[15px] h-[15px] lg:w-6 lg:h-6" />
+                                <Image src='/images/icons/heart-icon.svg' alt="heart icon" width={20} height={20} className="w-[15px] h-[15px] lg:w-6 lg:h-6" />
                                 <p className="text-[8px] lg:text-sm font-medium">321 supporters</p>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ const Cards = props => {
                             </div>
                             <p className="font-bold lg:font-medium text-[8px] lg:text-[15px] text-center px-[1.3125rem] lg:px-[2.125rem]">Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor</p>
                             <div className="flex justify-center items-center gap-1">
-                                <Image src='/images/heart-icon.svg' alt="heart icon" width={20} height={20} className="w-[15px] h-[15px] lg:w-6 lg:h-6" />
+                                <Image src='/images/icons/heart-icon.svg' alt="heart icon" width={20} height={20} className="w-[15px] h-[15px] lg:w-6 lg:h-6" />
                                 <p className="text-[8px] lg:text-sm font-medium">321 supporters</p>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ const Cards = props => {
                             </div>
                             <p className="font-bold lg:font-medium text-[8px] lg:text-[15px] text-center px-[1.3125rem] lg:px-[2.125rem]">Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor</p>
                             <div className="flex justify-center items-center gap-1">
-                                <Image src='/images/heart-icon.svg' alt="heart icon" width={20} height={20} className="w-[15px] h-[15px] lg:w-6 lg:h-6" />
+                                <Image src='/images/icons/heart-icon.svg' alt="heart icon" width={20} height={20} className="w-[15px] h-[15px] lg:w-6 lg:h-6" />
                                 <p className="text-[8px] lg:text-sm font-medium">321 supporters</p>
                             </div>
                         </div>
