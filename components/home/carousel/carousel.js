@@ -29,7 +29,7 @@ export default function Carousel() {
       </Swiper>
     </div>
     <div className='hidden md:flex gap-4 2xl:gap-[25px] mt-[2.875rem] px-4'>
-            {carouselCards.map((card) => <li className='list-none'><Card card={card} /></li>)}
+            {carouselCards.map((card) => <li key={card.id} className='list-none'><Card card={card} /></li>)}
       </div>
       </>
   );

@@ -1,5 +1,5 @@
 import { Head } from "next/document";
-import { NavBar,Hero,MakesUsSpecial, WhySocialBucks} from "@/components";
+import { NavBar,Hero,MakesUsSpecial, WhySocialBucks, Support} from "@/components";
 const Home = props => {
     return (
         <>
@@ -11,9 +11,10 @@ const Home = props => {
 
             <NavBar/>
             <Hero/>
+            <Support/>
             <MakesUsSpecial/>
             <WhySocialBucks/>
-            <div className="h-screen"></div>
+            
         </>
     );
 };

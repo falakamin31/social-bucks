@@ -6,7 +6,7 @@ const MakesUsSpecial = props => {
       <div className="max-w-[85.25rem] mx-auto flex flex-col lg:flex-row gap-y-[2.625rem] lg:gap-x-9 xl:gap-x-28 2xl:gap-x-[8.5rem]">
         <div className="flex-1 max-w-[35rem]">
           <p className="text-green text-[0.625rem] lg:text-xl font-eina font-bold uppercase">WHAT MAKE US SPECIALS</p> 
-          <h2 className="font-eina font-bold text-3xl lg:text-[45px] text-white mt-4 lg:mt-[1.5625rem] leading-9 lg:leading-[3.4375rem]">
+          <h2 className="font-eina font-bold text-3xl lg:text-[45px] text-white mt-4 lg:mt-[1.5625rem] leading-[35px] lg:leading-[3.4375rem]">
             Designed For Creators, Not For Businesses
           </h2>
           </div> 
