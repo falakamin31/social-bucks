@@ -17,7 +17,7 @@ const Cards = props => {
                     </div>
                         </div>
                         {/* Gift Icon  */}
-                        <div className="hidden lg:block absolute bg-white px-2 py-2 w-[3.5rem] h-[3.5rem] border-[0.5px] rounded-full z-40">
+                        <div className="hidden xl:block absolute bg-white px-2 py-2 w-[3.5rem] h-[3.5rem] border-[0.5px] rounded-full z-40 left-[40%] 2xl:left-[0%] -bottom-[14%]">
                             <span className="text-4xl">🎁</span>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const Cards = props => {
                 <div className="max-w-[10.1875rem] lg:max-w-[20.25rem] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                     <div className="relative left-[17%] -top-[45px] xl:top-[20px] xl:-left-[85%] ">
                         {/* Diamond Icon  */}
-                        <div className="hidden lg:block absolute bg-white px-2 py-2 w-[3.5rem] h-[3.5rem] border-[0.5px] rounded-full z-40 -top-[31%] left-[0%]">
+                        <div className="hidden xl:block absolute bg-white px-2 py-2 w-[3.5rem] h-[3.5rem] border-[0.5px] rounded-full z-40 -top-[31%] left-[0%]">
                             <span className="inline-block h-[2.0625rem] w-[2.0625rem] text-4xl">💎</span>
                         </div>
                         <div className="bg-white pt-[1.2rem] lg:pt-[2.6875rem] max-w-[10.1875rem] md:max-w-[20.25rem] rounded-xl flex flex-col gap-2 lg:gap-7 drop-shadow-2xl  rotate-6 pb-3 z-[200]">
@@ -81,8 +81,8 @@ const Cards = props => {
                 {/* Card 5  */}
                 <div className="max-w-[10.1875rem] lg:max-w-[20.25rem] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
                     <div className="relative left-[45%] xl:left-[180%] top-[110px] xl:top-[10px]">
-                         {/* Beat Icon  */}
-                        <div className="hidden lg:block absolute bg-white px-2 py-2 w-[3.5rem] h-[3.5rem] border-[0.5px] rounded-full z-40 -right-[13%] top-[30%]">
+                         {/* Bear Icon  */}
+                        <div className="hidden xl:block absolute bg-white px-2 py-2 w-[3.5rem] h-[3.5rem] border-[0.5px] rounded-full z-40 right-[40%] -top-[15%] 2xl:-right-[13%] 2xl:top-[30%] ">
                             <span className="text-4xl">🧸</span>
                         </div>
                         <div className="bg-white pt-[1.2rem] lg:pt-[2.6875rem] max-w-[10.1875rem] md:max-w-[20.25rem] rounded-xl flex flex-col gap-2 lg:gap-7 drop-shadow-2xl -rotate-5 pb-3 z-[200]">

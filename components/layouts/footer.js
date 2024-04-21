@@ -29,21 +29,21 @@ const Footer = props => {
                 </div>
 
                 {/* Desktop  */}
-                <div className="hidden lg:flex lg:justify-between relative">
-                    <span className="text-[#888888] lg:text-[15px]">
+                <div className="hidden lg:flex lg:justify-between relative items-end">
+                    <span className="text-[#888888] lg:text-[15px] font-medium">
                         &copy; Social:Bucks
                     </span>
                  <div className="hidden lg:flex gap-x-10 absolute left-[50%] -translate-x-[50%]">
                     {socialHandles.map(handle =>
                         <div key={handle.id}>
                             <Link href={handle.link}>
-                                <Image src={handle.icon} alt="twitter icon" width={40} height={40} className="w-5 h-5" />
+                                <Image src={handle.icon} alt={handle.name} width={40} height={40} className="w-8 h-8" />
                             </Link>
                         </div>
                     )}
                 </div>
                     
-                    <div className="hidden lg:flex gap-x-4 text-[#888888] text-[15px]">
+                    <div className="hidden lg:flex gap-x-4 text-[#888888] text-[15px] font-medium">
                         <span>Privacy Policy</span>
                         <span>Terms of Service</span>
                     </div>

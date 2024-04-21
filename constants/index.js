@@ -89,16 +89,19 @@ const carouselCards = [
 const socialHandles = [
     {
         id: 1,
+        name : 'twitter',
         icon: '/images/icons/twitter.svg',
         link: 'https://twitter.com'
     },
     {
         id: 2,
+        name: 'instagram',
         icon: '/images/icons/instagram.svg',
         link: 'https://instagram.com'
     },
     {
         id: 3,
+        name : 'linkedin',
         icon: '/images/icons/linkedin.svg',
         link: 'https://linkedin.com'
     },
