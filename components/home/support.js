@@ -3,7 +3,7 @@ import Image from "next/image";
 const Support = props => {
   return (
     <div className="px-9 pt-[4.625rem] lg:pt-[11.75rem] relative">
-       <div className="absolute right-[0%] 2xl:right-[8%] -top-[20%] xl:-top-[30%] 2xl:-top-[31%]">
+      <div className="absolute right-[0%] 2xl:right-[8%] -top-[20%] xl:-top-[30%] 2xl:-top-[31%]">
         <Image src='/images/patterns/pattern-3.svg' alt='pattern' width={50} height={50} className="w-20 h-20 lg:w-36 lg:h-36 blur-[10px] object-cover z-40" priority />
       </div>
       {/* <div className="invisible xl:visible absolute xl:-right-[15%] 2xl:-right-[4%] xl:-top-[20%] 2xl:-top-[10%]">
@@ -18,16 +18,16 @@ const Support = props => {
           <p className="font-medium leading-4 lg:leading-[23px] text-[10px] lg:text-[15px] text-white mt-[14px] lg:mt-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.</p>
         </div>
         <div className="flex-1 items-start content-start">
-         <div>
-          <Image src='/images/support-desktop.png' alt="support" width={900} height={900} className="hidden xl:block h-full w-full" quality={100}/>
-          <Image src='/images/support-mobile.png' alt="support" width={800} height={800} className="block xl:hidden h-full w-full -ml-4" quality={100}/>
-         </div>
+          <div>
+            <Image src='/images/support-desktop.png' alt="support" width={1200} height={1200} className="hidden xl:block h-full w-full" quality={100} />
+            <Image src='/images/support-mobile.png' alt="support" width={800} height={800} className="block xl:hidden h-full w-full -ml-5" quality={100} />
+          </div>
         </div>
 
         {/* Patterns  */}
         <div className="absolute left-[80%] sm:left-[2%] -bottom-[4%] md:-bottom-[20%] lg:-bottom-[15%] 2xl:bottom-[20%]">
           <Image src='/images/patterns/pattern-5.svg' alt='pattern' width={50} height={50} className="w-24 h-24 lg:w-32 lg:h-32 blur-[10px]" priority />
-          </div>
+        </div>
       </div>
     </div>
   );
