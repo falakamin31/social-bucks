@@ -23,8 +23,12 @@ const Footer = props => {
                         &copy; Social:Bucks
                     </span>
                     <div className="flex gap-x-4">
-                        <span>Privacy Policy</span>
-                        <span>Terms of Service</span>
+                        <Link href='/'>
+                        <span className="cursor-pointer">Privacy Policy</span>
+                        </Link>
+                        <Link href='/'>
+                        <span className="cursor-pointer">Terms of Service</span>
+                        </Link>
                     </div>
                 </div>
 
@@ -44,8 +48,13 @@ const Footer = props => {
                 </div>
                     
                     <div className="hidden lg:flex gap-x-4 text-[#888888] text-[15px] font-medium">
-                        <span>Privacy Policy</span>
-                        <span>Terms of Service</span>
+                        <Link href='/'>
+                        <span className="cursor-pointer">Privacy Policy</span>
+                        </Link>
+                        <Link href='/'>
+                        <span className="cursor-pointer">Terms of Service</span>
+                        </Link>
+
                     </div>
                 </div>
             </div>
